@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
     Cat[] catArray = new Cat[5];
-    catArray[0] = new Cat("Barsik", 5, false);
-    catArray[1] = new Cat("Матроскин", 50, false);
-    catArray[2] = new Cat("Васька", 105, false);
-    catArray[3] = new Cat("Гав", 75, false);
-    catArray[4] = new Cat("Пушок", 150, false);
+    catArray[0] = new Cat("Barsik", 25, false);
+    catArray[1] = new Cat("Asy", 64, false);
+    catArray[2] = new Cat("Goul", 75, false);
+    catArray[3] = new Cat("Pudg", 10, false);
+    catArray[4] = new Cat("Silvestor", 99, false);
     for (int i = 0; i < catArray.length; i++){
         Plate plate = new Plate(100);
         int a = plate.setFood(plate.getFood() - catArray[i].getAppetite());
